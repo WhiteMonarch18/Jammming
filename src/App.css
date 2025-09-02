@@ -40,3 +40,31 @@
 .read-the-docs {
   color: #888;
 }
+
+.lists {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 4rem;
+  margin: 4rem;
+}
+
+.searchResultsWrapper {
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 1rem;
+  width: 300px;
+  height: 400px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.playlistWrapper {
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 1rem;
+  width: 300px;
+  height: 400px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
