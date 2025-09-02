@@ -1,8 +1,7 @@
 
-import SearchBar from './components/SearchBar'
-import SearchButton from './components/SearchButton';
-import SearchResults from './components/SearchResults';
-import Playlist from './components/Playlist';
+import SearchBar from './components/SearchBar/SearchBar'
+import SearchResults from './components/SearchResults/SearchResults';
+import Playlist from './components/Playlist/Playlist';
 import './App.css'
 
 function App() {
@@ -13,7 +12,6 @@ function App() {
       <form className='header'>
         <h1 className='title'>JA<span className='mSpan'>MMM</span>ING</h1>
         <SearchBar />
-        <SearchButton />
       </form>
       <div className="lists">
         <SearchResults />
